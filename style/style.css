@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Navbar start  */
+.navHeight {
+    height: 30px !important;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+}
+
+/* Hero Section Start */
+.hero-section {
+    background: center / contain no-repeat url("../image/banner-01-removebg-preview.png"),
+        #eee 35%;
+    ;
+    /* background-image: url("../image/banner-02-removebg-preview.png"); */
+    /* background-blend-mode: darken; */
+    /* Replace with your image URL */
+    /* background-size: contain; */
+    /* position: absolute; */
+    background-position: right;
+    height: 95vh;
+    /* Adjust as needed */
+    /* display: flex;
+    align-items: center;
+    text-align: center;
+    color: #fff; */
+    /* Text color */
+}
+
+.hero-section h1 {
+    font-size: 3.5rem;
+    /* Adjust font size */
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+    /* Adjust font size */
+    margin-bottom: 30px;
+}
+
+/* .why_shop {
+    background-color: #fdf5f5;
+} */
+
+.bgall {
+    background-color: #f7f8f9;
+}
+
+/* Products Start  */
+
+.product {
+    position: relative;
+    padding: 35px;
+    background-color: #f7f8f9;
+    box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, .2);
+    /* box-shadow: 5px 5px 3px 4px rgb(37 35 35 / 15%); */
+    border: solid #fff 10px;
+}
+
+.img {
+    max-height: 200px;
+}
+
+.subscribe_form {
+    width: 45vw;
+    height: 60px;
+    padding: 17px;
+    margin-bottom: 20px;
+    border: solid black 1px;
+    background-color: white;
+    border-radius: 90px;
+}
